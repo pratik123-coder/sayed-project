@@ -23,7 +23,7 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Streamline your work</h3>
+              <h3 className="text-xl font-semibold mb-2 text-center">Streamline your work</h3>
               <p>Efficiency starts here. Streamline your work with our project tracking features. Simplify tasks and maximise productivity.</p>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Works with your favourite tools</h3>
+              <h3 className="text-xl font-semibold mb-2 text-center">Works with your favourite tools</h3>
               <p>Integrate quickly and directly with your tools you already love. It’s as easy as 1, 2, 3.</p>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Save hours every week</h3>
+              <h3 className="text-xl font-semibold mb-2  text-center">Save hours every week</h3>
               <p>Unlock more time for what matters. Save hours every week with Slice. Optimize your workflow and reclaim your time.</p>
             </div>
           </div>
