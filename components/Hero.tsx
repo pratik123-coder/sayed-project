@@ -24,8 +24,12 @@ const Hero = () => {
             Say goodbye to admin headaches and say hello to efficiency.<br />Manage your business in minutes, track business metrics<br />and manage customer performance. We’ve got you covered.
           </p>
           <div className="flex items-center justify-center gap-x-6 pt-8">
-            <GettingStartedButton />
-
+          <a
+        href="#"
+        className="inline-block px-6 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700"
+      >
+        Join Waitlist →
+      </a>
           </div>
           <div className="p-20 space-x-20 flex items-center justify-center w-full ">
             {/* <div className="flex flex-col space-y-10">

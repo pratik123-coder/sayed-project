@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <div id="navbar-with-collapse" className="hidden transition-all duration-[0.1ms] overflow-hidden basis-full grow sm:block">
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-            <Link className="font-medium text-blue-500" href="/" aria-current="page">Landing</Link>
+            <Link className="font-medium text-blue-500" href="/" aria-current="page">Home</Link>
             <Link className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="/about">About Us</Link>
             <Link className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="/pricing">Pricing</Link>
             <Link className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Work</Link>
