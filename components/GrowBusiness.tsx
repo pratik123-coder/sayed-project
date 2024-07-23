@@ -3,19 +3,11 @@ import Image from 'next/image';
 import React from 'react';
 import image from '../public/2.png';
 
-const AdminTask: React.FC = () => {
+const GrowBusiness: React.FC = () => {
   return (
     <section className="py-12 bg-white">
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-x-24">
-        <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
-          <h2 className="text-6xl font-bold text-gray-900 mt-2 mb-4 ">
-            Take the pain out of Business
-          </h2>
-          <p className="text-lg text-gray-500">
-            Eliminate the hassle, nobody wants it. Take the pain out of business with our all-in-one platform. Simplify projects and focus on what really drives your business forward.
-          </p>
-        </div>
-        <div className=" bg-indigo-50 p-6 rounded-2xl  shadow-lg flex items-center justify-center px-10">
+      <div className=" bg-indigo-50 p-6 rounded-2xl  shadow-lg flex items-center justify-center px-10">
           {/* <div className="flex justify-between items-center mb-4">
             <h3 className="text-lg font-semibold text-gray-900">Tasks</h3>
             <a href="#" className="text-sm text-indigo-600 font-semibold">View all</a>
@@ -68,9 +60,18 @@ const AdminTask: React.FC = () => {
           </div> */}
           <Image src={image} height={500} width={500} alt="Admin Task "  />
         </div>
+        <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
+          <h2 className="text-6xl font-bold text-gray-900 mt-2 mb-4 ">
+            Grow with your Business
+          </h2>
+          <p className="text-lg text-gray-500">
+            Now you can grow confidently, nothing is holding you back. Our platform grows as you grow. Adapting to your needs. Scale from a small business to a enterprise with us.
+          </p>
+        </div>
+        
       </div>
     </section>
   );
 };
 
-export default AdminTask;
+export default GrowBusiness;

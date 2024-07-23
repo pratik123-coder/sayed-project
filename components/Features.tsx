@@ -2,11 +2,11 @@ import React from "react";
 export default function Features() {
   return (
     <section className="py-12">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Wedge is built for you</h2>
+      <div className="container mx-auto px-4 ">
+        <h2 className="text-3xl font-bold text-center mb-12">RangeQI is built for you</h2>
         <div className="flex flex-wrap justify-center -mx-4">
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-white shadow-lg rounded-lg p-6">
+            <div className="bg-white shadow-lg rounded-lg p-6 h-[15rem]">
               <div className="text-purple-500 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -24,11 +24,11 @@ export default function Features() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-center">Streamline your work</h3>
-              <p>Efficiency starts here. Streamline your work with our project tracking features. Simplify tasks and maximise productivity.</p>
+              <p>Efficiency starts here. Streamline your Business with our project tracking features. Simplify business operations and maximise efficiency.</p>
             </div>
           </div>
-          <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-white shadow-lg rounded-lg p-6">
+          <div className="w-full md:w-1/3 px-4 mb-8 ">
+            <div className="bg-white shadow-lg rounded-lg p-6 h-[15rem]">
               <div className="text-purple-500 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -46,11 +46,11 @@ export default function Features() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-center">Works with your favourite tools</h3>
-              <p>Integrate quickly and directly with your tools you already love. It’s as easy as 1, 2, 3.</p>
+              <p>Integrate quickly and directly with your business. It’s as easy as one, two, three.</p>
             </div>
           </div>
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-white shadow-lg rounded-lg p-6">
+            <div className="bg-white shadow-lg rounded-lg p-6  h-[15rem]">
               <div className="text-purple-500 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ export default function Features() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2  text-center">Save hours every week</h3>
-              <p>Unlock more time for what matters. Save hours every week with Slice. Optimize your workflow and reclaim your time.</p>
+              <p>Unlock more time and savings for what matters. Save hours every week with us. Optimize your workflow and reclaim your business.</p>
             </div>
           </div>
         </div>

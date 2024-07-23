@@ -9,43 +9,42 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import image from "../public/image.jpg";
+import image from "../public/4.jpg";
+import image2 from "../public/7.png";
 
 
 const Hero = () => {
   return (
 
-        <div className="h-full flex flex-col items-center justify center  bg-gradient-to-b from-slate-50 to-violet-200 mt-32">
+        <div className="h-full flex flex-col items-center justify center  bg-gradient-to-b from-slate-50 to-violet-200 pt-56">
           <h1 className="font-medium text-center text-[4.5rem] tracking-tight leading-[4.7rem] pb-10">
-            Streamline your <br /> growing startup
+            Streamline your <br /> growing business
           </h1>
           <p className="text-center text-xl text-slate-700 font-medium">
-            Say goodbye to admin headaches and say hello to efficiency.<br />Onboard your employees in minutes, track company projects,<br />and manage team performance. We’ve got you covered.
+            Say goodbye to admin headaches and say hello to efficiency.<br />Manage your business in minutes, track business metrics<br />and manage customer performance. We’ve got you covered.
           </p>
           <div className="flex items-center justify-center gap-x-6 pt-8">
             <GettingStartedButton />
-            <LearnMoreButton />
+
           </div>
-          <div className="p-20 space-x-20 flex items-center justify-center">
-            <div className="flex flex-col space-y-10">
+          <div className="p-20 space-x-20 flex items-center justify-center w-full ">
+            {/* <div className="flex flex-col space-y-10">
               <Card>
                 <CardHeader>
                   <CardTitle>Card Title</CardTitle>
                   <CardDescription>Card Description</CardDescription>
                 </CardHeader>
               </Card>
-              <Card>
+              <Card className="rounded-xl bg-transparent">
                 <CardHeader>
-                  <CardTitle>Card Title</CardTitle>
-                  <CardDescription>Card Description</CardDescription>
-                </CardHeader>
-
+                <Image src={image2} height={300} width={300} alt="image" className="" />
+                </CardHeader> 
               </Card>
             </div>
-            <div className="pt-16">
-              <Card>
+            <div className="pt-16 ">
+              <Card className="rounded-xl bg-transparent">
                 <CardHeader>
-                <Image src={image} height={300} width={300} alt="image" className="h-12 w-18" />
+                <Image src={image} height={500} width={500} alt="image" className="" />
                 </CardHeader> 
               </Card>
             </div>
@@ -76,7 +75,8 @@ const Hero = () => {
                   <p>Card Footer</p>
                 </CardFooter>
               </Card>
-            </div>
+            </div> */}
+            <Image src={image2} height={700} width={1400} alt="image" className=" max-w-full" />
           </div>
         </div>
 

@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 const About = () => {
   return ( 
-    <div className="max-h-full max-w-full ">
+    <div className="max-h-full max-w-full pt-48 gap-y-10">
       <Mission />
       <Values />
       <Collaboration />
@@ -17,7 +17,6 @@ const About = () => {
       <FAQ />
       <Footer />
     </div>
-    
    );
 }
  

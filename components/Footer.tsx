@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="mb-6 lg:mb-0">
-            <div className="text-xl font-bold">Wedge</div>
+            <div className="text-xl font-bold">RangeQI</div>
           </div>
           <div className="flex flex-col lg:flex-row lg:space-x-12">
             <div className="mb-6 lg:mb-0">
@@ -28,14 +28,7 @@ const Footer: React.FC = () => {
                 <li className="mb-2"><a href="#" className="text-gray-600">YouTube</a></li>
               </ul>
             </div>
-            <div className="mb-6 lg:mb-0">
-              <ul>
-                <li className="mb-2"><a href="#" className="text-gray-600">Buy template</a></li>
-                <li className="mb-2"><a href="#" className="text-gray-600">View all templates</a></li>
-                <li className="mb-2"><a href="#" className="text-gray-600">Made in Framer</a></li>
-                <li className="mb-2"><a href="#" className="text-gray-600">Built by Bryn Taylor</a></li>
-              </ul>
-            </div>
+            
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import image from "../public/3.png";
 
 const teamMembers = [
   { name: 'Freddy', role: 'Marketing', avatar: '/avatars/freddy.png' },
@@ -12,28 +13,70 @@ const TeamManagement: React.FC = () => {
   return (
     <div className="flex justify-evenly items-center p-36 ">
       <div>
-        <h2 className="text-lg text-blue-600 font-medium">Central platform</h2>
-        <h1 className="text-4xl font-bold text-gray-900 mt-2">Manage your team in one place</h1>
+        <h1 className="text-6xl font-bold text-gray-900 mt-2">Manage your team in <br/> one place</h1>
         <p className="text-lg text-gray-700 mt-4">
-          Centralise your team management. Manage your entire team in one tool.<br />
-          Easy communication, project management, and smooth collaboration with your team.
+          Centralise your business management. Manage entire business in one tool.<br />
+          Easy communication, business management, and smooth collaboration with your team.
         </p>
       </div>
-      <div className="bg-purple-100 p-8 rounded-lg shadow-lg">
+      <div className="p-8 rounded-lg ">
         <div className="flex justify-between items-center mb-4">
-          <h3 className="text-2xl font-semibold text-gray-800">Team at a glance</h3>
 
         </div>
         <ul>
-          {teamMembers.map((member, index) => (
-            <li key={index} className="flex items-center mb-4">
-              <Image className="w-12 h-12 rounded-full mr-4" height={500} width={500} src={member.avatar} alt={member.name} />
-              <div>
-                <p className="text-lg font-medium text-gray-900">{member.name}</p>
-                <span className="text-sm text-gray-500">{member.role}</span>
+        <div className=" bg-indigo-50 p-6 rounded-2xl  shadow-lg flex items-center justify-center px-10">
+          {/* <div className="flex justify-between items-center mb-4">
+            <h3 className="text-lg font-semibold text-gray-900">Tasks</h3>
+            <a href="#" className="text-sm text-indigo-600 font-semibold">View all</a>
+          </div>
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2">
+                <div className="bg-indigo-200 p-2 rounded-full">
+                  <svg className="h-6 w-6 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M4.293 9.293a1 1 0 011.414 0L9 12.586l5.293-5.293a1 1 0 111.414 1.414l-6 6a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" />
+                  </svg>
+                </div>
+                <span className="text-gray-900">Finance reporting</span>
               </div>
-            </li>
-          ))}
+              <span className="text-gray-600">84%</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2">
+                <div className="bg-green-200 p-2 rounded-full">
+                  <svg className="h-6 w-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M4.293 9.293a1 1 0 011.414 0L9 12.586l5.293-5.293a1 1 0 111.414 1.414l-6 6a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" />
+                  </svg>
+                </div>
+                <span className="text-gray-900">Business proposal</span>
+              </div>
+              <span className="text-gray-600">100%</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2">
+                <div className="bg-indigo-200 p-2 rounded-full">
+                  <svg className="h-6 w-6 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M4.293 9.293a1 1 0 011.414 0L9 12.586l5.293-5.293a1 1 0 111.414 1.414l-6 6a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" />
+                  </svg>
+                </div>
+                <span className="text-gray-900">Update leadership</span>
+              </div>
+              <span className="text-gray-600">28%</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2">
+                <div className="bg-indigo-200 p-2 rounded-full">
+                  <svg className="h-6 w-6 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M4.293 9.293a1 1 0 011.414 0L9 12.586l5.293-5.293a1 1 0 111.414 1.414l-6 6a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" />
+                  </svg>
+                </div>
+                <span className="text-gray-900">Onboarding plan</span>
+              </div>
+              <span className="text-gray-600">0%</span>
+            </div>
+          </div> */}
+          <Image src={image} height={500} width={500} alt="Admin Task "  />
+        </div>
         </ul>
       </div>
     </div>

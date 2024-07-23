@@ -1,7 +1,7 @@
 const LearnMoreButton = () => {
   return ( 
     <button
-  className="overflow-hidden relative w-32 p-2 h-12 bg-white text-violet-500 border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+  className="overflow-hidden relative w-32 p-2 h-12 bg-white text-violet-500 border-none rounded-md text-md font-bold cursor-pointer z-10 group"
 >
   Learn
   <span

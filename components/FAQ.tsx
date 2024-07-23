@@ -8,10 +8,10 @@ interface FAQItem {
 }
 
 const faqItems: FAQItem[] = [
-  { question: "How does Wedge work?", answer: "Wedge works by..." },
-  { question: "Is my data secure?", answer: "Yes, your data is secure..." },
-  { question: "Does Wedge work well for large teams?", answer: "Wedge is designed to scale with your team..." },
-  { question: "How do I create a new account?", answer: "To create a new account, you need to..." },
+  { question: "How does RangeQI work?", answer: "RangeQI is like your business’s HQ. It brings all your communication, operations and business to get in one easy to use place. It helps you work better together and get stuff done faster." },
+  { question: "Is my data secure?", answer: "Rest assured, we take your data security, seriously. Our robust measures ensure that your information is kept safe and secure at all times." },
+  { question: "Does RangeQI work well for large teams?", answer: "- Certainly! RangeQI is designed to scale effortlessly, making it ideal for large teams and businesses. It’s flexible feature and intuitive interface and ensure smooth collaboration and efficient business management, no matter the size of the organization." },
+  { question: "How do I create a new account?", answer: "creating a new account with RangeQI for the waitlist. Follow the prompts and you will end up running in 48 hours." },
 ];
 
 const FAQ: React.FC = () => {

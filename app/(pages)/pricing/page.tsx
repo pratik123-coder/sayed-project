@@ -4,7 +4,7 @@ import React from 'react';
 
 const PricingPage: React.FC = () => {
   return (
-    <div className="bg-gray-100 py-12">
+    <div className="bg-gray-100 py-12 pt-48 min-h-screen">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-gray-900">
           Transparent pricing for you and your team

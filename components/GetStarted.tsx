@@ -9,7 +9,7 @@ const ReadyToGetStarted: React.FC = () => {
         href="#"
         className="inline-block px-6 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700"
       >
-        Get started →
+        Join Waitlist →
       </a>
     </div>
   );
