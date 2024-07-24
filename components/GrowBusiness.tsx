@@ -1,7 +1,7 @@
 // components/AdminTask.tsx
 import Image from 'next/image';
 import React from 'react';
-import image from '../public/2.png';
+import image from '../public/8.png';
 
 const GrowBusiness: React.FC = () => {
   return (

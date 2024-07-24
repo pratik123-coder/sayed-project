@@ -7,12 +7,13 @@ import GrowBusiness from "@/components/GrowBusiness";
 import Hero from "@/components/Hero";
 import { InfiniteMovingCardsHome } from "@/components/InfiniteCards";
 import TeamManagement from "@/components/Team";
+import Members from "@/components/Members";
 
 export default function Home() {
   return (
     <div className="min-h-screen min-w-full ">
       <Hero />
-      <InfiniteMovingCardsHome />
+      <Members />
       <Features />
       <AdminTask />
       <GrowBusiness />
