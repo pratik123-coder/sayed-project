@@ -16,7 +16,7 @@ import image2 from "../public/7.png";
 const Hero = () => {
   return (
 
-        <div className="h-full flex flex-col items-center justify center  bg-gradient-to-b from-slate-50 to-violet-200 pt-56">
+        <div className="h-full flex flex-col items-center justify center p-10 bg-gradient-to-b from-slate-50 to-violet-200 pt-56">
           <h1 className="font-medium text-center text-[4.5rem] tracking-tight leading-[4.7rem] pb-10">
             Streamline your <br /> growing business
           </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
         Join Waitlist →
       </a>
           </div>
-          <div className="p-20 space-x-20 flex items-center justify-center w-full ">
+          <div className="hidden p-20 space-x-20 lg:flex items-center justify-center w-full ">
             {/* <div className="flex flex-col space-y-10">
               <Card>
                 <CardHeader>

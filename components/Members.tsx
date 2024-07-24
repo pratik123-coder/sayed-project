@@ -16,9 +16,9 @@ const teamMembers = [
 const Team: React.FC = () => {
   return (
     <section className="py-12 bg-white">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center min-w-full">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Team</h2>
-        <div className="flex justify-center space-x-4 lg:space-x-8">
+        <div className="lg:flex grid items-center  justify-center lg:space-x-4 lg:space-x-8">
           {teamMembers.map((member, index) => (
             <div key={index} className="bg-gray-50 p-6 rounded-lg shadow-lg w-full lg:w-1/4 mb-4 lg:mb-0">
               <div className="flex justify-center">

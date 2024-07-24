@@ -5,10 +5,10 @@ import image from '../public/2.png';
 
 const AdminTask: React.FC = () => {
   return (
-    <section className="py-12 bg-white">
+    <section className="py-12 bg-white ">
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-x-24">
         <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
-          <h2 className="text-6xl font-bold text-gray-900 mt-2 mb-4 ">
+          <h2 className="text-6xl font-bold text-gray-900 mt-2 lg:mb-4 mb-14 ">
             Take the pain out of Business
           </h2>
           <p className="text-lg text-gray-500">

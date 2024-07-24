@@ -45,7 +45,7 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-center">Works with your favourite tools</h3>
+              <h3 className="text-xl font-semibold mb-2 text-center">Works with your business</h3>
               <p>Integrate quickly and directly with your business. It’s as easy as one, two, three.</p>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2  text-center">Save hours every week</h3>
+              <h3 className="text-xl font-semibold mb-2  text-center">Save at business</h3>
               <p>Unlock more time and savings for what matters. Save hours every week with us. Optimize your workflow and reclaim your business.</p>
             </div>
           </div>

@@ -22,9 +22,9 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto py-10 px-4">
-      <h2 className="text-5xl font-bold mb-4">Frequently asked questions</h2>
-      <p className="mb-8">
+    <div className="lg:max-w-4xl mx-auto py-10 px-4 ">
+      <h2 className="text-5xl font-bold lg:mb-4 mb-14">Frequently asked questions</h2>
+      <p className="mb-14 lg:mb-8">
         Have questions? We’ve got answers. For everything else email us on <a href="mailto:hi@email.com" className="text-blue-500">queries@rangeqi.com</a>.
       </p>
       <div className="space-y-4">

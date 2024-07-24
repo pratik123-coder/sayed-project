@@ -11,9 +11,9 @@ const teamMembers = [
 
 const TeamManagement: React.FC = () => {
   return (
-    <div className="flex justify-evenly items-center p-36 ">
+    <div className="grid lg:flex lg:justify-evenly items-center lg:p-36 p-6 gap-y-10">
       <div>
-        <h1 className="text-6xl font-bold text-gray-900 mt-2">Manage your team in <br/> one place</h1>
+        <h1 className="text-6xl font-bold text-gray-900 mt-2 lg:mb-4 mb-14">Manage your team in <br/> one place</h1>
         <p className="text-lg text-gray-700 mt-4">
           Centralise your business management. Manage entire business in one tool.<br />
           Easy communication, business management, and smooth collaboration with your team.
@@ -24,7 +24,7 @@ const TeamManagement: React.FC = () => {
 
         </div>
         <ul>
-        <div className=" bg-indigo-50 p-6 rounded-2xl  shadow-lg flex items-center justify-center px-10">
+        <div className=" lg:flex bg-indigo-50 p-6 rounded-2xl  shadow-lg  items-center justify-center px-10">
           {/* <div className="flex justify-between items-center mb-4">
             <h3 className="text-lg font-semibold text-gray-900">Tasks</h3>
             <a href="#" className="text-sm text-indigo-600 font-semibold">View all</a>
