@@ -7,9 +7,9 @@ import cmo from "./team/cmo.png";
 import fi from "./team/fi.png";
 
 const teamMembers = [
-  { name: 'Sayed Ashraf Ali', designation: 'CEO', photo: ceo },
-  { name: 'Ranjan B Goswami', designation: 'COO', photo: coo },
-  { name: 'Sabyasachi Baral', designation: 'CMO', photo: cmo },
+  { name: 'Sayed Ashraf Ali', designation: 'Chief Executive Officer', photo: ceo },
+  { name: 'Ranjan B Goswami', designation: 'Chief Operating Officer', photo: coo },
+  { name: 'Sabyasachi Baral', designation: 'Chief Marketing Officer', photo: cmo },
   { name: 'Joyjit Sinha', designation: 'Financial Advisor', photo: fi }
 ];
 
