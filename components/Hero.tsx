@@ -17,7 +17,7 @@ const Hero = () => {
   return (
 
         <div className="h-full flex flex-col items-center justify center p-10 bg-gradient-to-b from-slate-50 to-violet-200 pt-56">
-          <h1 className="font-medium text-center text-[4.5rem] tracking-tight leading-[4.7rem] pb-10">
+          <h1 className="font-medium text-center lg:text-[4.5rem] text-[4rem] tracking-tight leading-[4.7rem] pb-10">
             Streamline your <br /> growing business
           </h1>
           <p className="text-center text-xl text-slate-700 font-medium">

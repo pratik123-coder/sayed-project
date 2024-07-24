@@ -13,7 +13,7 @@ const TeamManagement: React.FC = () => {
   return (
     <div className="grid lg:flex lg:justify-evenly items-center lg:p-36 p-6 gap-y-10">
       <div>
-        <h1 className="text-6xl font-bold text-gray-900 mt-2 lg:mb-4 mb-14">Manage your team in <br/> one place</h1>
+        <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mt-2 lg:mb-4 mb-14">Manage your team in <br/> one place</h1>
         <p className="text-lg text-gray-700 mt-4">
           Centralise your business management. Manage entire business in one tool.<br />
           Easy communication, business management, and smooth collaboration with your team.

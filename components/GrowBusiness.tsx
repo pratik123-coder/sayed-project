@@ -61,7 +61,7 @@ const GrowBusiness: React.FC = () => {
           <Image src={image} height={500} width={500} alt="Admin Task "  />
         </div>
         <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
-          <h2 className="text-6xl font-bold text-gray-900 mt-2 lg:mb-4 mb-14">
+          <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 mt-2 lg:mb-4 mb-14">
             Grow with your Business
           </h2>
           <p className="text-lg text-gray-500">
