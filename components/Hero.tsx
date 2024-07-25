@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import GettingStartedButton from "./Getting-Started";
 import LearnMoreButton from "./Learn-More";
@@ -11,6 +12,7 @@ import {
 } from "@/components/ui/card"
 import image from "../public/4.jpg";
 import image2 from "../public/7.png";
+import { smoothScroll } from "@/utils/smoothScroll";
 
 
 const Hero = () => {
@@ -18,18 +20,19 @@ const Hero = () => {
 
         <div className="h-full flex flex-col items-center justify center p-10 bg-gradient-to-b from-slate-50 to-violet-200 pt-56">
           <h1 className="font-medium text-center lg:text-[4.5rem] text-[4rem] tracking-tight leading-[4.7rem] pb-10">
-            Streamline your <br /> growing business
+            End to End <br /> Bus Management System
           </h1>
           <p className="text-center text-xl text-slate-700 font-medium">
-            Say goodbye to admin headaches and say hello to efficiency.<br />Manage your business in minutes, track business metrics<br />and manage customer performance. We’ve got you covered.
+            Say goodbye to business headaches and say hello to efficiency.<br />Manage your business in minutes, track business metrics<br />and manage bus performance. We’ve got you covered.
           </p>
           <div className="flex items-center justify-center gap-x-6 pt-8">
-          <a
-        href="#"
+          <button
+        
         className="inline-block px-6 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700"
+        onClick={() => smoothScroll('features')}
       >
-        Join Waitlist →
-      </a>
+        Know more →
+      </button>
           </div>
           <div className="hidden p-20 space-x-20 lg:flex items-center justify-center w-full ">
             {/* <div className="flex flex-col space-y-10">

@@ -8,10 +8,9 @@ interface FAQItem {
 }
 
 const faqItems: FAQItem[] = [
-  { question: "How does RangeQI work?", answer: "RangeQI is like your business’s HQ. It brings all your communication, operations and business to get in one easy to use place. It helps you work better together and get stuff done faster." },
+  { question: "How does OneTKT work?", answer: "OneTKT is like you business's HQ. It brings all your communication, operation and business to get in one easy to use place. It helps you to work better together and get stuff done faster." },
   { question: "Is my data secure?", answer: "Rest assured, we take your data security, seriously. Our robust measures ensure that your information is kept safe and secure at all times." },
-  { question: "Does RangeQI work well for large teams?", answer: "- Certainly! RangeQI is designed to scale effortlessly, making it ideal for large teams and businesses. It’s flexible feature and intuitive interface and ensure smooth collaboration and efficient business management, no matter the size of the organization." },
-  { question: "How do I create a new account?", answer: "creating a new account with RangeQI for the waitlist. Follow the prompts and you will end up running in 48 hours." },
+  { question: "Does OneTKT work well for large teams?", answer: "Certainly! OneTKT is designed to scale effortlessly, making a title for large bus businesses. It’s flexible feature and intuitive interface and ensure smooth collaboration and efficient business management, no matter the size of the organization." }
 ];
 
 const FAQ: React.FC = () => {
