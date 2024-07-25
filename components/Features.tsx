@@ -28,7 +28,7 @@ export default function Features() {
             </div>
           </div>
           <div className="w-full md:w-1/3 px-4 mb-8 ">
-            <div className="bg-white shadow-lg rounded-lg p-6 h-[17rem]">
+            <div className="bg-white shadow-lg rounded-lg p-6 h-[19rem] lg:h-[17rem]">
               <div className="text-purple-500 mb-4">
               <svg
                   xmlns="http://www.w3.org/2000/svg"
