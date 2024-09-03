@@ -23,7 +23,7 @@ const Hero = () => {
             End to End <br /> Bus Management System
           </h1>
           <p className="text-center text-xl text-slate-700 font-medium">
-            Say goodbye to business headaches and say hello to efficiency.<br />Manage your business in minutes, track business metrics<br />and manage bus performance. We’ve got you covered.
+          Say goodbye to inefficiencies and hello to streamlined operations.<br /> Manage your business effortlessly, track key metrics, and <br /> enhance performance with ease. We've got everything you <br/> need to succeed.
           </p>
           <div className="flex items-center justify-center gap-x-6 pt-8">
           <button
@@ -31,7 +31,7 @@ const Hero = () => {
         className="inline-block px-6 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700"
         onClick={() => smoothScroll('features')}
       >
-        Know more →
+        Book a Call →
       </button>
           </div>
           <div className="hidden p-20 space-x-20 lg:flex items-center justify-center w-full ">
