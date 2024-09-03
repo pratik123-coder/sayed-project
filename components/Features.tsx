@@ -2,118 +2,49 @@ import React from "react";
 export default function Features() {
   return (
     <section className="py-12" id="features">
-      <div className="container mx-auto px-4 ">
-        <h2 className="text-4xl lg:text-5xl font-bold text-center mb-12">OneTKT is built for you</h2>
+      <div className="container mx-auto px-4 p-20">
+        <h2 className="text-4xl lg:text-7xl font-bold text-center mb-12 pb-10">Features</h2>
         <div className="flex flex-wrap justify-center -mx-4">
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-white shadow-lg rounded-lg p-6 h-[17rem]">
-              <div className="text-purple-500 mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-center">⁠Ticket Management</h3>
-              <p>Streamline ticketing across all channels with a unified solution integrating operators, managers, conductors, agents, counters, kiosks, and OTAs. Enhance sales clarity and eliminate manual errors for a seamless process.</p>
+            <div className="bg-white shadow-lg rounded-lg p-6 h-[9rem]">
+
+              <h3 className="text-xl font-bold mb-2 text-center">Real-Time Insights</h3>
+              <p>Track real-time business updates, gain clarity, and identify improvement areas with our software</p>
             </div>
           </div>
           <div className="w-full md:w-1/3 px-4 mb-8 ">
-            <div className="bg-white shadow-lg rounded-lg p-6 h-[19rem] lg:h-[17rem]">
-              <div className="text-purple-500 mb-4">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-center">Expense Management</h3>
-              <p className="pb-4">Manage costs efficiently with categorized expense pockets, integrated bank payments, and centralized banking. Track expenses by category and monitor key metrics and KPIs to ensure better financial oversight and more effective budget management.</p>
+            <div className="bg-white shadow-lg rounded-lg p-6 h-[19rem] lg:h-[9rem]">
+
+              <h3 className="text-xl font-bold mb-2 text-center">Multi-Device Access</h3>
+              <p className="pb-4">Operable on multiple devices with seamless integration for effortless use across all your daily tools.</p>
             </div>
           </div>
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-white shadow-lg rounded-lg p-6  h-[17rem]">
-              <div className="text-purple-500 mb-4">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 8c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3zm0 13c4.418 0 8-1.79 8-4s-3.582-4-8-4-8 1.79-8 4 3.582 4 8 4z"
-                  />
-                </svg>
-                
-              </div>
-              <h3 className="text-xl font-bold mb-2  text-center">Maintenance Management</h3>
-              <p>Integrate with vendors to track spare parts, garages, and tire distributors. Use dashboards for breakdown maintenance, asset tracking, and maintenance logs to ensure effective monitoring and preventive care.</p>
+            <div className="bg-white shadow-lg rounded-lg p-6  h-[9rem]">
+
+              <h3 className="text-xl font-bold mb-2  text-center">Unified User Management</h3>
+              <p>Centralise user data management and streamline analysis with our software, eliminating the need for tedious data reviews.</p>
             </div>
           </div>
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-white shadow-lg rounded-lg p-6  h-[17rem]">
-              <div className="text-purple-500 mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold mb-2  text-center">⁠Inventory Management</h3>
-              <p>Integrate tax management systems and digitize inventory documents, accessible by bus via the dashboard. Manage seats and pricing while gaining insights and KPIs for effective and efficient inventory management.</p>
+            <div className="bg-white shadow-lg rounded-lg p-6  h-[9rem]">
+
+              <h3 className="text-xl font-bold mb-2  text-center">Secure Privacy</h3>
+              <p>Data security is our priority because we understand the importance of your business's privacy. We've simplified it for you.</p>
             </div>
           </div>
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-white shadow-lg rounded-lg p-6  h-[17rem]">
-              <div className="text-purple-500 mb-4">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 8c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3zm0 13c4.418 0 8-1.79 8-4s-3.582-4-8-4-8 1.79-8 4 3.582 4 8 4z"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold mb-2  text-center">⁠Staff Management</h3>
-              <p>Track employee attendance and absences, process payroll, assign inventory, and monitor performance to manage staff effectively and gain insights into overall business operations. </p>
+            <div className="bg-white shadow-lg rounded-lg p-6  h-[9rem]">
+
+              <h3 className="text-xl font-bold mb-2  text-center">Automated Savings</h3>
+              <p>Save on costs by automating and digitizing your business. Say goodbye to manual methods.</p>
+            </div>
+          </div>
+          <div className="w-full md:w-1/3 px-4 mb-8">
+            <div className="bg-white shadow-lg rounded-lg p-6  h-[9rem]">
+
+              <h3 className="text-xl font-bold mb-2  text-center">Operational Oversight</h3>
+              <p>"Efficiently track and manage inventory and assets, optimising demand and supply with our software.</p>
             </div>
           </div>
         </div>

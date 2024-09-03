@@ -8,9 +8,10 @@ interface FAQItem {
 }
 
 const faqItems: FAQItem[] = [
-  { question: "How does OneTKT work?", answer: "OneTKT is like you business's HQ. It brings all your communication, operation and business to get in one easy to use place. It helps you to work better together and get stuff done faster." },
-  { question: "Is my data secure?", answer: "Rest assured, we take your data security, seriously. Our robust measures ensure that your information is kept safe and secure at all times." },
-  { question: "Does OneTKT work well for large teams?", answer: "Certainly! OneTKT is designed to scale effortlessly, making a title for large bus businesses. It’s flexible feature and intuitive interface and ensure smooth collaboration and efficient business management, no matter the size of the organization." }
+  { question: "How does RangeQI ensure data security?", answer: "RangeQI prioritises data security with advanced encryption, secure access controls, and regular security audits to protect your business information and ensure compliance with industry standards." },
+  { question: "What kind of support can we expect from RangeQI?", answer: "RangeQI offers 24/7 support through email, and phone, ensuring that you receive prompt assistance and solutions to any issues you may encounter." },
+  { question: "How long is the validity of RangeQI’s solutions?", answer: "RangeQI’s solutions are designed with limitless validity, meaning they are scalable and adaptable to meet the evolving needs of your business over time." },
+  { question: "How does RangeQI address specific needs?", answer: "RangeQI’s software is already developed with built-in insights tailored for you, ensuring comprehensive protection and addressing your specific requirements effectively" }
 ];
 
 const FAQ: React.FC = () => {
@@ -21,7 +22,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="lg:max-w-4xl mx-auto py-10 px-4 ">
+    <div className="lg:max-w-4xl mx-auto py-10 px-4 pb-10">
       <h2 className="text-4xl lg:text-5xl font-bold lg:mb-4 mb-14">Frequently asked questions</h2>
       <p className="mb-14 lg:mb-8">
         Have questions? We’ve got answers. For everything else email us on <a href="mailto:hi@email.com" className="text-blue-500">queries@rangeqi.com</a>.
