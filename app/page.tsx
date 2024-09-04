@@ -20,8 +20,8 @@ export default function Home() {
       <TeamManagement /> */}
       <Roles />
       <FAQ />
-      <ReadyToGetStarted />
       {/* <Footer /> */}
     </div>
   );
 }
+
