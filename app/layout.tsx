@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import PrelineScript from "@/components/PrelineScript";
 import Navbar from "@/components/Navbar";
-
+import ReadyToGetStarted from "@/components/GetStarted";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <PrelineScript />
-      <Navbar />
+        <PrelineScript />
+        <Navbar />
         {children}
+        <ReadyToGetStarted />
       </body>
     </html>
   );
