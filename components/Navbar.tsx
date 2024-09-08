@@ -1,20 +1,23 @@
 "use client"
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, NextRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
+  const router: NextRouter = useRouter();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  function isActive(path: string) {
+    return router.pathname === path;
+  }
+
   // Function to check if the link is active
-  const isActive = (path:string) => router.pathname === path;
 
   return (
     <header className="fixed shadow-lg z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-4 dark:bg-neutral-800">
