@@ -13,7 +13,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   const isActive = (href: string) => {
-    return 1;
+    return 0;
   }
 
 
