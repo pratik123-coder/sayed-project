@@ -37,26 +37,16 @@ const Features = () => {
 
   return (
     <div className="flex flex-col items-center justify-center w-full bg-white">
-      {/* Doodle Image */}
-      <div className="w-full px-20 pb-10">
-        <img
-          src="https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/agrjlc37upp3ojv3ifqq"
-          alt="Doodle"
-          className="w-full h-auto"
-        />
-      </div>
-
       {/* Feature Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
         {features.slice(0, 3).map((feature, index) => (
           <div
             key={index}
-            className="bg-black text-white p-6 px-10 rounded-lg shadow-lg flex flex-col items-center"
+            className="bg-white text-black m-6 mx-10 rounded-lg shadow-lg flex flex-col items-center"
           >
             {/* Title and Icon Flexbox */}
-            <div className="flex justify-between items-center w-full mb-4">
+            <div className="flex justify-between p-3 px-10 bg-black text-white items-center w-full mb-4 rounded-t-lg">
               <h3 className="text-xl font-bold">{feature.title}</h3>
-              {/* Clickable Icon */}
               <a href={feature.link} target="_blank" rel="noopener noreferrer">
                 <Image
                   height={40}
@@ -68,7 +58,7 @@ const Features = () => {
               </a>
             </div>
             {/* Feature List */}
-            <ul className="text-left">
+            <ul className="text-left px-10 py-6">
               {feature.features.map((item, idx) => (
                 <li key={idx} className="mb-2">
                   • {item}
@@ -84,12 +74,11 @@ const Features = () => {
         {features.slice(3).map((feature, index) => (
           <div
             key={index}
-            className="bg-black text-white p-6 px-10 rounded-lg shadow-lg flex flex-col items-center"
+            className="bg-white text-black m-6 mx-10 rounded-lg shadow-lg flex flex-col items-center"
           >
             {/* Title and Icon Flexbox */}
-            <div className="flex justify-between items-center  mb-4">
+            <div className="flex justify-between p-3 px-10 bg-black text-white items-center w-full mb-4 rounded-t-lg">
               <h3 className="text-xl font-bold">{feature.title}</h3>
-              {/* Clickable Icon */}
               <a href={feature.link} target="_blank" rel="noopener noreferrer">
                 <Image
                   height={40}
@@ -101,7 +90,7 @@ const Features = () => {
               </a>
             </div>
             {/* Feature List */}
-            <ul className="text-left">
+            <ul className="text-left px-10 py-6">
               {feature.features.map((item, idx) => (
                 <li key={idx} className="mb-2">
                   • {item}
