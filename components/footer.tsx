@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Links */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-10">
           <div>
             <h4 className="text-lg font-bold mb-4">Products</h4>
             <ul>

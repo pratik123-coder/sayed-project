@@ -90,7 +90,14 @@ const config: Config = {
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
-  		}
+  		},
+			backgroundImage: {
+        'squares-background':
+          "url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"76\" height=\"76\" viewBox=\"0 0 76 76\"><rect width=\"76\" height=\"76\" fill=\"none\" stroke=\"%23e0e0e0\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/></svg>')",
+      },
+      backgroundSize: {
+        'squares-background': '76px 76px',
+      },
   	}
   },
   plugins: [require("tailwindcss-animate"), [addVariablesForColors],],
