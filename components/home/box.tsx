@@ -1,22 +1,22 @@
-
 import React from "react";
-import { Card, CardDescription, CardHeader, CardTitle } from "../ui/card";
 
 interface BoxProps {
-  bgColor: string;
-  title: string;
-  description: string;
-  textColor?: string;
+  bgColor: string; // Background color for the box
+  title: string; // Title text
+  description: string; // Description text
+  textColor?: string; // Optional text color
 }
 
-const BoxComponent: React.FC<BoxProps> = ({ bgColor, title, description,textColor }) => {
+const BoxComponent: React.FC<BoxProps> = ({ bgColor, title, description, textColor }) => {
   return (
-    <Card className={`rounded-xl h-60 flex items-center justify-center text-center ${bgColor}`}>
-      <CardHeader>
-        <CardTitle className={`text-xl mb-6 font-semibold ${textColor ? textColor : 'text-white'}`}>{title}</CardTitle>
-        <CardDescription className={`${textColor ? textColor : 'text-white'}`}>{description}</CardDescription>
-      </CardHeader>
-    </Card>
+    <div className={`rounded-xl h-60 flex flex-col items-center justify-center text-center p-4 ${bgColor}`}>
+      <h2 className={`text-xl mb-2 font-semibold ${textColor ? textColor : 'text-white'}`}>
+        {title}
+      </h2>
+      <p className={`${textColor ? textColor : 'text-white'}`}>
+        {description}
+      </p>
+    </div>
   );
 };
 

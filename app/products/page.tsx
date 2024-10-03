@@ -4,12 +4,12 @@ import Needs from "@/components/products/Need";
 import Overview from "@/components/products/Overview";
 import Pricing from "@/components/products/Pricing";
 import Image from "next/image";
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 
 const Products = () => {
   const [activeTab, setActiveTab] = useState("overview");
 
-  const handleTabClick = (tabName) => {
+  const handleTabClick = (tabName: SetStateAction<string>) => {
     setActiveTab(tabName);
   };
 

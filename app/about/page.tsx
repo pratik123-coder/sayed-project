@@ -1,5 +1,4 @@
 import Culture from "@/components/about/culture";
-import Image from "next/image";
 
 const About = () => {
   return ( 

@@ -12,10 +12,10 @@ const Hero = () => {
           {/* Content */}
           <div className="relative z-10 flex flex-col items-center justify-center h-[40vh] text-white text-center px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-10 leading-tight mt-12">
-              Fix your <span className="font-semibold">‘Failure’</span> here...
+              Fix your <span className="font-semibold">&apos;Failure&apos;</span> here...
             </h1>
             <p className="text-lg md:text-xl max-w-5xl mb-6">
-              Say goodbye to inefficiencies and hello to streamlined operations. Manage your business effortlessly, track key metrics, and enhance performance with ease. We've got everything you need to succeed.
+              Say goodbye to inefficiencies and hello to streamlined operations. Manage your business effortlessly, track key metrics, and enhance performance with ease. We&apos;ve got everything you need to succeed.
             </p>
             <a
               href="#"
