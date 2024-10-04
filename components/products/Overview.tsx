@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Overview = () => {
   return (
-    <div className="py-4 px-4 bg-[url('https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/haztmote8weisksxgmns')]">
+    <div className="py-4 px-4 bg-[url('https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/haztmote8weisksxgmns')] bg-cover">
       {/* Our Stack Section */}
       <div className="flex items-center justify-center px-8">
         <div>

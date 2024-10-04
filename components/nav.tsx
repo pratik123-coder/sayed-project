@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Navbar = () => {
   return (
 
@@ -5,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-white ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/fhrqcjjvkmi1acuzhu74" className="h-12" alt="Flowbite Logo" />
+          <Image src="https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/fhrqcjjvkmi1acuzhu74" height={400} width={250} className="h-12" alt="Flowbite Logo" />
           
         </a>
         <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -20,20 +22,20 @@ const Navbar = () => {
               <a href="/" className="block py-2 px-3 rounded-full hover:text-white ease-in-out duration-300 hover:bg-purple-950 text-black" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 rounded-full hover:text-white ease-in-out duration-300 hover:bg-purple-950 text-black">About</a>
+              <a href="/about" className="block py-2 px-3 rounded-full hover:text-white ease-in-out duration-300 hover:bg-purple-950 text-black">About</a>
             </li>
             <li>
               <a href="/products" className="block py-2 px-3 rounded-full hover:text-white ease-in-out duration-300 hover:bg-purple-950 text-black">Products</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 rounded-full hover:text-white ease-in-out duration-300 hover:bg-purple-950 text-black">Contact</a>
+              <a href="/contacts" className="block py-2 px-3 rounded-full hover:text-white ease-in-out duration-300 hover:bg-purple-950 text-black">Contact</a>
             </li>
           </ul>
         </div>
         <div>
-          <button className="lg:inline-flex items-center p-2 w-full bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/jvhnsqsbivyn1suaafwx)] h-10 justify-center text-sm text-white rounded-xl hidden">
+          <a href="/contacts" className="lg:inline-flex items-center p-2 w-full bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/jvhnsqsbivyn1suaafwx)] h-10 justify-center text-sm text-white rounded-xl hidden">
             Raise Query
-          </button>
+          </a>
         </div>
       </div>
     </nav>
