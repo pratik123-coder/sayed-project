@@ -14,7 +14,7 @@ const Culture = () => {
   ];
 
   return (
-    <div className="p-16">
+    <div className="px-10 py-16">
       <div className="text-center text-5xl font-semibold pb-10">Our Six-point Culture</div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
 

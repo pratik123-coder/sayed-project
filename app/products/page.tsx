@@ -15,10 +15,10 @@ const Products = () => {
 
   return (
     <div className="py-8">
-      <div className="flex items-center justify-between px-16">
-        <div className="bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/haztmote8weisksxgmns)]">
+      <div className="flex items-center justify-between px-36">
+        <div>
           <Image 
-            src="https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/l8bxykcqy0hutmriltpw" 
+            src="https://res.cloudinary.com/dajq9hekb/image/upload/f_auto,q_auto/prj5f6avsuobrfzi85cb" 
             alt="onetkt" 
             width={100} 
             height={100} 

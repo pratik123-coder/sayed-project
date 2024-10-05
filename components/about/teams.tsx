@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import { FaLinkedin } from "react-icons/fa";
 
 interface TeamMember {
   name: string;
@@ -54,22 +55,15 @@ const Teams = () => {
                   alt={member.name}
                   height={400}
                   width={400}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover p-4 "
                 />
                 <a
                   href={member.linkedinUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute bottom-3 right-3 bg-blue-700 hover:bg-blue-800 text-white p-2 rounded-full"
+                  className="absolute bottom-0 right-[7.2rem] bg-gradient-to-b from-[#141446] to-[#3F4279] text-white p-2 px-4 rounded-full"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    className="w-6 h-6"
-                  >
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.327-.028-3.037-1.851-3.037-1.852 0-2.136 1.445-2.136 2.937v5.669h-3.555v-11.5h3.413v1.571h.049c.475-.9 1.637-1.851 3.367-1.851 3.6 0 4.264 2.368 4.264 5.448v6.332zM5.337 8.433c-1.144 0-2.067-.928-2.067-2.071 0-1.144.923-2.071 2.067-2.071s2.067.927 2.067 2.071c0 1.143-.923 2.071-2.067 2.071zm-1.782 12.019h3.554v-11.5h-3.554v11.5zm15.195-18.452h-15.558c-.897 0-1.624.729-1.624 1.625v15.75c0 .897.727 1.625 1.624 1.625h15.558c.896 0 1.624-.728 1.624-1.625v-15.75c0-.896-.728-1.625-1.624-1.625z"/>
-                  </svg>
+                  <FaLinkedin />
                 </a>
               </div>
               <div className="p-4 text-center">
