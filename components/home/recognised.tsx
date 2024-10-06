@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Recognized = () => {
   return ( 
-    <div className="px-10 p-16">
+    <div className="px-10 p-16 bg-white">
       <div className="text-center text-5xl font-semibold pb-10">
         We are Recognised
       </div>
