@@ -20,8 +20,9 @@ const Products = () => {
           <Image 
             src="https://res.cloudinary.com/dajq9hekb/image/upload/f_auto,q_auto/prj5f6avsuobrfzi85cb" 
             alt="onetkt" 
-            width={100} 
-            height={100} 
+            width={1000} 
+            height={1000}
+            className="h-14 w-56" 
           />
         </div>
         <div className="flex items-center h-12 space-x-6 justify-center rounded-full bg-gradient-to-tl from-blue-950 to-gray-800 px-8">
