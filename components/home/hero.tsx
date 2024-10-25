@@ -3,11 +3,26 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="px-10 bg-white  shadow-2xl">
-      <div className='rounded-t-[40px] overflow-hidden'>
-        <section className="relative bg-cover bg-center bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/y237jhu4kccrzaqkna3o)] rounded-t-[40px]">
+    <div className="px-10 bg-white shadow-2xl">
+      <div className="rounded-t-[40px] overflow-hidden">
+        <section className="relative bg-cover bg-center rounded-t-[40px]">
+          {/* Background Video */}
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source
+              src="https://res.cloudinary.com/dajq9hekb/video/upload/f_auto:video,q_auto/pzg1kcxlnhcpyzng6fvk"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black opacity-80"></div>
+          <div className="absolute inset-0  opacity-80"></div>
 
           {/* Content */}
           <div className="relative z-10 flex flex-col items-center justify-center h-[40vh] text-white text-center px-4">

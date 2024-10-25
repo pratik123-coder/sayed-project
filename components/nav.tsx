@@ -33,7 +33,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <a href="/contacts" className="lg:inline-flex items-center p-2 w-full bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/jvhnsqsbivyn1suaafwx)] h-10 justify-center text-sm text-white rounded-xl hidden">
+          <a href="/contacts" className="lg:inline-flex items-center p-2 px-6 w-full bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/jvhnsqsbivyn1suaafwx)] h-10 justify-center text-sm text-white rounded-xl hidden">
             Raise Query
           </a>
         </div>

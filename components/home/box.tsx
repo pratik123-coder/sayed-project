@@ -9,7 +9,7 @@ interface BoxProps {
 
 const BoxComponent: React.FC<BoxProps> = ({ bgColor, title, description, textColor }) => {
   return (
-    <div className={`rounded-xl h-60 flex flex-col items-center justify-center text-center  shadow-xl p-4 ${bgColor}`}>
+    <div className={`rounded-xl h-60 flex flex-col items-center justify-center text-center  shadow-xl  transition-transform duration-200 hover:scale-105 p-4 ${bgColor}`}>
       <h2 className={`text-xl mb-2 font-semibold ${textColor ? textColor : 'text-white'}`}>
         {title}
       </h2>
