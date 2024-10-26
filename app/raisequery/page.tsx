@@ -1,5 +1,4 @@
-import ContactForm from "@/components/contact/contactForm";
-import HeroSection from "@/components/contact/heroSection";
+
 import QueryForm from "@/components/raise-query/queryform";
 const Contact = () => {
   return ( 
