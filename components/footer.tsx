@@ -139,13 +139,18 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="w-full flex items-center justify-center text-center mt-10 text-sm">
-          <p className="w-2/3">
+        <div className="w-full flex items-center justify-between text-left mt-10 text-sm">
+          <p className="">
             Grey Platforms Private Limited | CIN: U62099OD2024PTC047119 | PAN:
             AALCG5647D | TAN: BBNG03474C
             <br /> Reg Address: 03-B (2BR), BLOCK-2, KRISHNA GARDEN
             ANNEX,PHASE2, Khandagiri, Bhubaneswar, Khorda- 751030, Orissa
           </p>
+          <div className="flex flex-row items-center space-x-8">
+            <p>Terms of Use</p>
+            <p>Privacy Policy</p>
+            <p>Cookie Policy</p>
+          </div>
         </div>
       </div>
     </footer>
