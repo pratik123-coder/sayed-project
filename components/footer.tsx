@@ -1,26 +1,26 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 
 const faqItems: FAQItem[] = [
   {
-    question: "How does RangeQI ensure data security?",
+    question: " How long is the validity of the solutions?",
     answer:
-      "RangeQI prioritises data security with advanced encryption, secure access controls, and regular security audits to protect your business information and ensure compliance with industry standards.",
+      "Our solutions are designed with limitless validity, meaning they are scalable and adaptable to meet the evolving needs of your business over time.",
   },
   {
-    question: "What kind of support can we expect from RangeQI?",
+    question: "How do we address specific needs?",
     answer:
-      "RangeQI offers 24/7 support through email, and phone, ensuring that you receive prompt assistance and solutions to any issues you may encounter.",
+      "Our softwares are already developed with built-in insights tailored for you, ensuring comprehensive protection and addressing your specific requirements effectively.",
   },
   {
-    question: "How long is the validity of RangeQI’s solutions?",
+    question: "How do we ensure data security?",
     answer:
-      "RangeQI’s solutions are designed with limitless validity, meaning they are scalable and adaptable to meet the evolving needs of your business over time.",
+      "Our Organisation prioritises data security with advanced encryption, secure access controls, and regular security audits to protect your business information and ensure compliance with industry standards.",
   },
   {
-    question: "How does RangeQI address specific needs?",
+    question: " What kind of support can you expect from us? ",
     answer:
-      "RangeQI’s software is already developed with built-in insights tailored for you, ensuring comprehensive protection and addressing your specific requirements effectively.",
+      "We offer 24/7 support through email, and phone, ensuring that you receive prompt assistance and solutions to any issues you may encounter.",
   },
 ];
 interface FAQItem {
@@ -72,7 +72,7 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-white py-10 px-10">
+    <footer className="bg-black text-white py-10 px-10 rounded-t-2xl">
       <div className="container mx-auto px-4">
         {/* FAQ Section */}
         <div className="flex justify-between items-center mb-8">
@@ -125,6 +125,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-bold mb-4">Support</h4>
             <ul>
               <li>Contact Us</li>
+              <li>Raise your query</li>
             </ul>
           </div>
           <div>
@@ -138,8 +139,13 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="text-center mt-10 text-sm">
-          <p>© 2024 RangeQI Pvt. Ltd. All rights reserved. | Privacy Policy | Terms of Use</p>
+        <div className="w-full flex items-center justify-center text-center mt-10 text-sm">
+          <p className="w-2/3">
+            Grey Platforms Private Limited | CIN: U62099OD2024PTC047119 | PAN:
+            AALCG5647D | TAN: BBNG03474C
+            <br /> Reg Address: 03-B (2BR), BLOCK-2, KRISHNA GARDEN
+            ANNEX,PHASE2, Khandagiri, Bhubaneswar, Khorda- 751030, Orissa
+          </p>
         </div>
       </div>
     </footer>

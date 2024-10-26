@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 // Contact form component
-const ContactForm = () => {
+const QueryForm = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -55,13 +55,13 @@ const ContactForm = () => {
           </p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label
                 htmlFor="firstName"
                 className="block text-sm font-medium text-gray-700"
               >
-                First Name
+                Name
               </label>
               <input
                 type="text"
@@ -70,11 +70,11 @@ const ContactForm = () => {
                 value={formData.firstName}
                 onChange={handleChange}
                 className="mt-1 block w-full px-4 py-2 border border-black rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 sm:text-sm"
-                placeholder="Enter First Name"
+                placeholder="Enter Name"
                 required
               />
             </div>
-            <div>
+            {/* <div>
               <label
                 htmlFor="lastName"
                 className="block text-sm font-medium text-gray-700"
@@ -91,7 +91,7 @@ const ContactForm = () => {
                 placeholder="Enter Last Name"
                 required
               />
-            </div>
+            </div> */}
             <div>
               <label
                 htmlFor="email"
@@ -144,12 +144,13 @@ const ContactForm = () => {
                 required
               >
                 <option value="">Select Inquiry Type</option>
-                <option value="General">General Inquiry</option>
-                <option value="Partnership">Partnership</option>
-                <option value="Support">Support</option>
+                <option value="General">Product Demo</option>
+                <option value="Partnership">Explore our products</option>
+                <option value="Support">Complaint/Issue regarding product</option>
+                <option value="Support">Other</option>
               </select>
             </div>
-            <div>
+            {/* <div>
               <label
                 htmlFor="hearAboutUs"
                 className="block text-sm font-medium text-gray-700"
@@ -169,7 +170,7 @@ const ContactForm = () => {
                 <option value="Friend">Friend/Colleague</option>
                 <option value="Ad">Advertisement</option>
               </select>
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -201,10 +202,9 @@ const ContactForm = () => {
                   checked={formData.agreeToTerms}
                   onChange={handleChange}
                   className="focus:ring-orange-500 h-4 w-4 text-orange-600 border-black rounded"
-                  required
                 />
               </div>
-              <div className="ml-3 text-sm ">
+              <div className="ml-3 text-sm">
                 <div>
                   <label
                     htmlFor="agreeToTerms"
@@ -235,7 +235,7 @@ const ContactForm = () => {
                     type="submit"
                     className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-b from-[#141446] to-[#3F4279] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   >
-                    Send Your Message
+                    Raise a query
                   </button>
                 </div>
               </div>
@@ -249,4 +249,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default QueryForm;

@@ -17,42 +17,50 @@ const Products = () => {
     <div className="py-8">
       <div className="flex items-center justify-between px-36">
         <div>
-          <Image 
-            src="https://res.cloudinary.com/dajq9hekb/image/upload/f_auto,q_auto/prj5f6avsuobrfzi85cb" 
-            alt="onetkt" 
-            width={1000} 
+          <Image
+            src="https://res.cloudinary.com/dajq9hekb/image/upload/f_auto,q_auto/prj5f6avsuobrfzi85cb"
+            alt="onetkt"
+            width={1000}
             height={1000}
-            className="h-14 w-56" 
+            className="h-14 w-56"
           />
         </div>
         <div className="flex items-center h-12 space-x-6 justify-center rounded-full bg-gradient-to-tl from-blue-950 to-gray-800 px-8">
           <button
-            className={`text-white px-4 py-2 ${activeTab === "overview" ? "font-semibold" : ""}`}
+            className={`text-white px-4 py-2 ${
+              activeTab === "overview" ? "font-semibold" : ""
+            }`}
             onClick={() => handleTabClick("overview")}
           >
             Overview
           </button>
           <button
-            className={`text-white px-4 py-2 ${activeTab === "features" ? "font-semibold" : ""}`}
+            className={`text-white px-4 py-2 ${
+              activeTab === "features" ? "font-semibold" : ""
+            }`}
             onClick={() => handleTabClick("features")}
           >
             Features
           </button>
           <button
-            className={`text-white px-4 py-2 ${activeTab === "pricing" ? "font-semibold" : ""}`}
-            onClick={() => handleTabClick("pricing")}
+            className={`text-gray-400 px-4 py-2 ${
+              activeTab === "pricing" ? "font-semibold" : ""
+            }`}
+            // onClick={() => handleTabClick("pricing")}
           >
             Pricing
           </button>
           <button
-            className={`text-white px-4 py-2 ${activeTab === "needs" ? "font-semibold" : ""}`}
-            onClick={() => handleTabClick("needs")}
+            className={`text-gray-400 px-4 py-2 ${
+              activeTab === "needs" ? "font-semibold" : ""
+            }`}
+            // onClick={() => handleTabClick("needs")}
           >
             Know your needs
           </button>
         </div>
       </div>
-      
+
       <div className="mt-8">
         {activeTab === "overview" && <Overview />}
         {activeTab === "features" && <Features />}
