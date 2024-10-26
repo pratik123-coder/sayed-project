@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { cn } from "@/lib/utils";
 import { Marquee } from "../magicui/marquee";
 
@@ -37,7 +38,6 @@ const reviews = [
 ];
 
 const firstRow = reviews.slice(0, reviews.length);
-const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({
   name,
