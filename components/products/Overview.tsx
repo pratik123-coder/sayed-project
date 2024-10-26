@@ -24,22 +24,26 @@ const Overview = () => {
           {/* Our Stack Section */}
           <div className="flex items-center justify-center px-8">
             <div>
-              <h2 className="text-5xl font-bold mb-4 text-left">Our Stack, MoveQI</h2>
+              <h2 className="text-5xl font-bold mb-4 text-left">
+                Our Stack
+              </h2>
               <p className="text-left text-xl max-w-4xl mb-8">
-                MoveQI Stack is our advanced software suite designed specifically for the transportation and logistics industry,
-                empowering the entire ecosystem of the industry and connecting verticals for better efficiency.
+                Our Stack is our advanced software suite designed
+                specifically for the transportation and logistics industry,
+                empowering the entire ecosystem of the industry and connecting
+                verticals for better efficiency.
               </p>
-              <div className="grid lg:grid-cols-2 items-center justify-center gap-6 mb-8">
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-20 w-80 text-center mb-4">
+              <div className="grid lg:grid-cols-2 items-center justify-center gap-6 mb-8 text-[1.15rem]">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
                   Scalable Architecture
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-20 w-80 text-center mb-4">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
                   Advanced Data Synchronisation
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-20 w-80 text-center mb-4">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
                   Adaptive Multi-Device Compatibility
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-20 w-80 text-center mb-4">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
                   AI/ML Integration
                 </div>
               </div>
@@ -68,26 +72,42 @@ const Overview = () => {
         <div className="px-24">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-black text-white rounded-lg p-6 shadow-lg text-center transition-transform duration-200 hover:scale-105">
-              <h3 className="font-semibold mb-6">Ticket Management</h3>
-              <p>Streamline ticketing with a unified solution integrating all stakeholders, enhancing sales clarity, and reducing errors.</p>
+              <h3 className="font-semibold mb-6 text-[1.5rem]">Ticket Management</h3>
+              <p>
+                Streamline ticketing with a unified solution integrating all
+                stakeholders, enhancing sales clarity, and reducing errors.
+              </p>
             </div>
             <div className="bg-black text-white rounded-lg p-6 shadow-lg text-center transition-transform duration-200 hover:scale-105">
-              <h3 className="font-semibold mb-6">Expense Management</h3>
-              <p>Manage costs with categorized expenses, integrated bank payments, and centralized banking for enhanced financial oversight.</p>
+              <h3 className="font-semibold mb-6 text-[1.5rem]">Expense Management</h3>
+              <p>
+                Manage costs with categorized expenses, integrated bank
+                payments, and centralized banking for enhanced financial
+                oversight.
+              </p>
             </div>
             <div className="bg-black text-white rounded-lg p-6 shadow-lg text-center transition-transform duration-200 hover:scale-105">
-              <h3 className="font-semibold mb-6">Maintenance Management</h3>
-              <p>Track assets and maintenance cycles with dashboards for effective asset management and monitoring.</p>
+              <h3 className="font-semibold mb-6 text-[1.5rem]">Maintenance Management</h3>
+              <p>
+                Track assets and maintenance cycles with dashboards for
+                effective asset management and monitoring.
+              </p>
             </div>
           </div>
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 pt-4">
             <div className="bg-black text-white rounded-lg p-6 shadow-lg text-center transition-transform duration-200 hover:scale-105">
-              <h3 className="font-semibold mb-6">Employee Management</h3>
-              <p>Track attendance, process payroll, manage inventory, and monitor performance for comprehensive staff management and operations.</p>
+              <h3 className="font-semibold mb-6 text-[1.5rem]">Employee Management</h3>
+              <p>
+                Track attendance, process payroll, manage inventory, and monitor
+                performance for comprehensive staff management and operations.
+              </p>
             </div>
             <div className="bg-black text-white rounded-lg p-6 shadow-lg text-center transition-transform duration-200 hover:scale-105">
-              <h3 className="font-semibold mb-6">Inventory Management</h3>
-              <p>Integrate tax systems, digitize inventory, and manage seats and pricing with dashboard insights and KPIs.</p>
+              <h3 className="font-semibold mb-6 text-[1.5rem]">Inventory Management</h3>
+              <p>
+                Integrate tax systems, digitize inventory, and manage seats and
+                pricing with dashboard insights and KPIs.
+              </p>
             </div>
           </div>
         </div>

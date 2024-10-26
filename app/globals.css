@@ -69,7 +69,9 @@ body {
 }
 
 @layer base {
-
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
   body {
     @apply bg-background text-foreground;
   }
@@ -79,3 +81,13 @@ body {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76"><rect width="76" height="76" fill="none" stroke="%23e0e0e0" stroke-width="2" stroke-dasharray="4,4"/></svg>');
   background-size: 76px 76px; /* Ensure the background size matches the square size */
 }
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
