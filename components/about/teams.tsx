@@ -46,7 +46,7 @@ const Teams = () => {
       <div className="bg-black text-white py-10 px-4 rounded-[50px]">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-center text-3xl font-bold mb-6">
-            Humans of RangeQI
+            The Team
           </h2>
           {/* <p className="text-center text-gray-400 mb-12">
             At Estatein, our success is driven by the dedication and expertise

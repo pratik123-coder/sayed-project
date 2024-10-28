@@ -25,7 +25,12 @@ const HeroSection = () => {
           </h1>
           <p className="text-lg md:text-xl max-w-5xl mb-6">
             Have questions or just want to say hi? Send us a message below or you can <br/>
-            email us on queries@rangeqi.com .
+            <a
+                href="mailto:contact@greyplatforms.com"
+                className="underline hover:text-gray-200"
+              >
+                contact@greyplatforms.com
+              </a> .
           </p>
 
         </div>

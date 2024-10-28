@@ -4,17 +4,18 @@ const Overview = () => {
   return (
     <div>
       {/* Video Background */}
-      <div className="relative bg-white px-10  overflow-hidden">
+      <div className="relative bg-white rounded-2xl mx-10 shadow-md">
         <video
           autoPlay
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-25 rounded-2xl px-10"
+          className="absolute inset-0 w-full h-full object-cover opacity-25 rounded-2xl"
         >
           <source
             src="https://res.cloudinary.com/dajq9hekb/video/upload/f_auto:video,q_auto/q6bjurn19cdixozndasf"
             type="video/mp4"
+            className="rounded-2xl px-10"
           />
           Your browser does not support the video tag.
         </video>
@@ -33,7 +34,7 @@ const Overview = () => {
                 empowering the entire ecosystem of the industry and connecting
                 verticals for better efficiency.
               </p>
-              <div className="grid lg:grid-cols-2 items-center justify-center gap-6 mb-8 text-[1.15rem]">
+              <div className="grid lg:grid-cols-2 items-center justify-center gap-6 mb-8 text-[1.15rem] font-semibold">
                 <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
                   Scalable Architecture
                 </div>
