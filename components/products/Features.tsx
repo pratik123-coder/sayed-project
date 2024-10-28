@@ -41,25 +41,25 @@ const Features = () => {
       title: 'Expense Management',
       icon: 'https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/qntg6s9a9fd2orbyqm9v',
       link: 'https://example.com/expense-management',
-      features: ['Unified Ticketing Solutions', 'Enhanced Sales Clarity', 'Comprehensive Channel Integration'],
+      features: ['Categorised Expense Management', 'Integrated Payments', 'Expense Tracking'],
     },
     {
       title: 'Inventory Management',
       icon: 'https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/qntg6s9a9fd2orbyqm9v',
       link: 'https://example.com/inventory-management',
-      features: ['Unified Ticketing Solutions', 'Enhanced Sales Clarity', 'Comprehensive Channel Integration'],
+      features: ['Manage Compliances', 'Digitised Inventory', 'Effective Inventory Management'],
     },
     {
       title: 'Employee Management',
       icon: 'https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/qntg6s9a9fd2orbyqm9v',
       link: 'https://example.com/employee-management',
-      features: ['Unified Ticketing Solutions', 'Enhanced Sales Clarity', 'Comprehensive Channel Integration'],
+      features: ['Attendance Tracking', 'Payroll Processing', 'Performance Monitoring'],
     },
     {
       title: 'Maintenance Management',
       icon: 'https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/qntg6s9a9fd2orbyqm9v',
       link: 'https://example.com/maintenance-management',
-      features: ['Unified Ticketing Solutions', 'Enhanced Sales Clarity', 'Comprehensive Channel Integration'],
+      features: ['Vendor Integration', 'Monitor Assets and Inventory', 'Maintenance Logging'],
     },
   ];
 

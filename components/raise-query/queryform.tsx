@@ -44,15 +44,16 @@ const QueryForm = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 bg-white rounded-lg mb-10 pt-10">
         <div className="text-center mb-8">
           <h2 className="text-5xl font-semibold text-gray-900">
-            Let&apos;s Connect
+            Have queries?
           </h2>
-          <p className="mt-4 text-gray-500">
+          <hr className="h-1 mt-4"/>
+          {/* <p className="mt-4 text-gray-500">
             We&apos;re excited to connect with you and learn more about your
             real estate goals. Use the form below to get in touch with Estatein.
             Whether you&apos;re a prospective client, partner, or simply curious
             about our services, we&apos;re here to answer your questions and
             provide the assistance you need.
-          </p>
+          </p> */}
         </div>
         <form onSubmit={handleSubmit} className="space-y-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

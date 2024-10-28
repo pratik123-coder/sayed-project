@@ -3,27 +3,32 @@ import React, { useState } from "react";
 
 const faqItems: FAQItem[] = [
   {
+    id: 1,
     question: " How long is the validity of the solutions?",
     answer:
       "Our solutions are designed with limitless validity, meaning they are scalable and adaptable to meet the evolving needs of your business over time.",
   },
   {
+    id: 2,
     question: "How do we address specific needs?",
     answer:
       "Our softwares are already developed with built-in insights tailored for you, ensuring comprehensive protection and addressing your specific requirements effectively.",
   },
   {
+    id: 3,
     question: "How do we ensure data security?",
     answer:
       "Our Organisation prioritises data security with advanced encryption, secure access controls, and regular security audits to protect your business information and ensure compliance with industry standards.",
   },
   {
+    id: 4,
     question: " What kind of support can you expect from us? ",
     answer:
       "We offer 24/7 support through email, and phone, ensuring that you receive prompt assistance and solutions to any issues you may encounter.",
   },
 ];
 interface FAQItem {
+  id: number;
   question: string;
   answer: string;
 }
@@ -54,7 +59,7 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
 
             <div className="flex items-center gap-x-2">
               <div className="flex items-center justify-center h-10 w-10 bg-gray-900 rounded-lg ">
-                {String(index + 1).padStart(2, "0")}
+                {item.id}
               </div>
               <p>{item.question}</p>
             </div>
@@ -81,17 +86,20 @@ const Footer: React.FC = () => {
             <p className="text-md text-gray-400">
               Have questions? We’ve got answers. For everything else email us on{" "}
               <a
-                href="mailto:queries@rangeqi.com"
+                href="mailto:contact@greyplatforms.com"
                 className="underline hover:text-gray-200"
               >
-                queries@rangeqi.com
+                contact@greyplatforms.com
               </a>
               .
             </p>
           </div>
-          <button className="bg-cover p-2 bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/jvhnsqsbivyn1suaafwx)]">
+          <a
+            href="/contacts"
+            className="bg-cover p-2 bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/jvhnsqsbivyn1suaafwx)]"
+          >
             Ask a Question
-          </button>
+          </a>
         </div>
 
         {/* FAQ List with Two FAQs on Left and Two on Right */}
@@ -108,7 +116,9 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-4">Products</h4>
             <ul>
-              <li>OneTKT</li>
+              <a href="/products">
+                <li>OneTKT</li>
+              </a>
               <li>Coming Soon</li>
             </ul>
           </div>
@@ -124,16 +134,24 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-4">Support</h4>
             <ul>
-              <li>Contact Us</li>
-              <li>Raise your query</li>
+              <a href="/contacts">
+                <li>Contact Us</li>
+              </a>
+              <a href="/raisequery">
+                <li>Raise your query</li>
+              </a>
             </ul>
           </div>
           <div>
             <h4 className="text-lg font-bold mb-4">Contact Team</h4>
             <ul>
-              <li>Phone: +91-9876543210</li>
-              <li>Phone: +91-9123456789</li>
-              <li>Email: queries@rangeqi.com</li>
+              <li>Phone: +91-8093572614</li>
+              <li>Phone: +91-9937943775</li>
+              <a
+                href="mailto:contact@greyplatforms.com"
+              >
+                Email: contact@greyplatforms.com
+              </a>
             </ul>
           </div>
         </div>
