@@ -157,7 +157,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="w-full flex items-center justify-between text-left mt-10 text-sm">
+        <div className="w-full flex items-center justify-between text-left mt-10 text-[0.7rem]">
           <p className="">
             Grey Platforms Private Limited | CIN: U62099OD2024PTC047119 | PAN:
             AALCG5647D | TAN: BBNG03474C
