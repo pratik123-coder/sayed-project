@@ -33,7 +33,7 @@ const Hero = () => {
               Say goodbye to inefficiencies and hello to streamlined operations. Manage your business effortlessly, track key metrics, and enhance performance with ease. We&apos;ve got everything you need to succeed.
             </p>
             <a
-              href="/contacts"
+              href="https://calendar.app.google/Trmc33VHg5nD3Z3w6"
               className="bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/jvhnsqsbivyn1suaafwx)] bg-cover text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition duration-300 ease-in-out"
             >
               Book a call ➜

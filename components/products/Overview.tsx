@@ -34,17 +34,17 @@ const Overview = () => {
                 empowering the entire ecosystem of the industry and connecting
                 verticals for better efficiency.
               </p>
-              <div className="grid lg:grid-cols-2 items-center justify-center gap-6 mb-8 text-[1.15rem] font-semibold">
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
+              <div className="grid md:grid-cols-1 lg:grid-cols-2 items-center justify-center gap-6 mb-8 text-[1.15rem] font-semibold">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[22rem] md:w-[20rem] text-center mb-4 px-2">
                   Scalable Architecture
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[22rem] md:w-[20rem] text-center mb-4 px-2">
                   Advanced Data Synchronisation
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[22rem] md:w-[20rem] text-center mb-4 px-2">
                   Adaptive Multi-Device Compatibility
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 w-[22rem] text-center mb-4">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[22rem] md:w-[20rem] text-center mb-4 px-2">
                   AI/ML Integration
                 </div>
               </div>
@@ -57,6 +57,7 @@ const Overview = () => {
                 height={600}
                 layout="intrinsic"
                 objectFit="cover"
+                
               />
             </div>
           </div>
