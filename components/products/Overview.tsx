@@ -23,33 +23,33 @@ const Overview = () => {
         {/* Content Layer */}
         <div className="relative z-10 py-4 bg-cover rounded-2xl">
           {/* Our Stack Section */}
-          <div className="flex items-center justify-center px-8">
+          <div className="flex lg:flex-row flex-col items-center justify-center px-8">
             <div>
-              <h2 className="text-5xl font-bold mb-4 text-left">
+              <h2 className="lg:text-5xl text-2xl font-bold mb-4 lg:text-left text-center">
                 Our Stack
               </h2>
-              <p className="text-left text-xl max-w-4xl mb-8">
+              <p className="lg:text-left text-center text-xl max-w-4xl mb-8">
                 Our Stack is our advanced software suite designed
                 specifically for the transportation and logistics industry,
                 empowering the entire ecosystem of the industry and connecting
                 verticals for better efficiency.
               </p>
-              <div className="grid md:grid-cols-1 lg:grid-cols-2 items-center justify-center gap-6 mb-8 text-[1.15rem] font-semibold">
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[22rem] md:w-[20rem] text-center mb-4 px-2">
+              <div className="grid md:grid-cols-2 place-content-center items-center justify-center gap-6 mb-8 text-[1.15rem] font-semibold">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[20rem] w-full text-center mb-4">
                   Scalable Architecture
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[22rem] md:w-[20rem] text-center mb-4 px-2">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[20rem] w-full text-center mb-4 px-3">
                   Advanced Data Synchronisation
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[22rem] md:w-[20rem] text-center mb-4 px-2">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[20rem] w-full text-center mb-4 px-3">
                   Adaptive Multi-Device Compatibility
                 </div>
-                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[22rem] md:w-[20rem] text-center mb-4 px-2">
+                <div className="flex items-center justify-center transition-transform duration-200 hover:scale-105 bg-black text-white rounded-md h-28 lg:w-[20rem] w-full text-center mb-4">
                   AI/ML Integration
                 </div>
               </div>
             </div>
-            <div className="mb-8 relative">
+            <div className="lg:flex hidden mb-8 relative">
               <Image
                 src="https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/x28czy2wcgnmmtikhunx"
                 alt="MoveQI Image"
@@ -71,8 +71,8 @@ const Overview = () => {
         <h2 className="text-2xl font-bold text-center mb-6">
           OneTKT: All-in-One Bus Management System
         </h2>
-        <div className="px-24">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="lg:px-24">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="bg-black text-white rounded-lg p-6 shadow-lg text-center transition-transform duration-200 hover:scale-105">
               <h3 className="font-semibold mb-6 text-[1.5rem]">Ticket Management</h3>
               <p>

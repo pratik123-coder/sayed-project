@@ -15,8 +15,7 @@ const FeaturesSection = () => {
   return (
     <div className="p-16">
       <div className="text-center text-5xl font-semibold pb-10">Features</div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
-
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
         {features.map((feature, index) => (
           <BoxComponent
             key={index}

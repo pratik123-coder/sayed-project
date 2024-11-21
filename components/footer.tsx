@@ -80,10 +80,10 @@ const Footer: React.FC = () => {
     <footer className="bg-black text-white py-10 px-10 rounded-t-2xl">
       <div className="container mx-auto px-4">
         {/* FAQ Section */}
-        <div className="flex justify-between items-center mb-8">
-          <div className="flex flex-col items-start justify-center gap-y-2">
+        <div className="flex lg:flex-row flex-col justify-between items-center mb-8 lg:space-y-0 space-y-4">
+          <div className="flex flex-col lg:items-start items-center justify-center gap-y-2">
             <h3 className="text-xl font-bold">Frequently Asked Questions</h3>
-            <p className="text-md text-gray-400">
+            <p className="text-md text-gray-400 text-center">
               Have questions? We’ve got answers. For everything else email us on{" "}
               <a
                 href="mailto:contact@greyplatforms.com"
@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Links */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 lg:gap-8 md:gap-16 gap-8 mt-10 md:px-4">
           <div>
             <h4 className="text-lg font-bold mb-4">Products</h4>
             <ul>
@@ -157,14 +157,14 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="w-full flex items-center justify-between text-left mt-10 text-[0.7rem]">
+        <div className="w-full flex lg:flex-row flex-col lg:items-center items-start justify-between text-left mt-10 text-[0.7rem] lg:space-y-0 space-y-8">
           <p className="">
             Grey Platforms Private Limited | CIN: U62099OD2024PTC047119 | PAN:
             AALCG5647D | TAN: BBNG03474C
             <br /> Reg Address: 03-B (2BR), BLOCK-2, KRISHNA GARDEN
             ANNEX,PHASE2, Khandagiri, Bhubaneswar, Khorda- 751030, Orissa
           </p>
-          <div className="flex flex-row items-center space-x-8">
+          <div className="flex lg:flex-row flex-col items-start lg:space-x-8">
             <p>Terms of Use</p>
             <p>Privacy Policy</p>
             <p>Cookie Policy</p>

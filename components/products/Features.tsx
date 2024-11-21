@@ -64,19 +64,19 @@ const Features = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center w-full bg-white">
+    <div className="flex flex-col items-center justify-center w-full bg-white px-8">
       <div>
-      <Image height={500} alt='he' width={1700} className='pb-10 px-10' src="https://res.cloudinary.com/dajq9hekb/image/upload/f_auto,q_auto/ljdmgpnow96iitnffnaw" />
+      <Image height={500} alt='he' width={1700} className='lg:pb-10 lg:px-10 lg:h-auto h-60 lg:object-contain object-cover' src="https://res.cloudinary.com/dajq9hekb/image/upload/f_auto,q_auto/ljdmgpnow96iitnffnaw" />
     </div>
       {/* Feature Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {features.slice(0, 3).map((feature, index) => (
           <FeatureCard key={index} {...feature} />
         ))}
       </div>
 
       {/* Bottom Features */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
         {features.slice(3).map((feature, index) => (
           <FeatureCard key={index} {...feature} />
         ))}
