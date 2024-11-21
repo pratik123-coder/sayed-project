@@ -193,7 +193,7 @@ const QueryForm = () => {
             ></textarea>
           </div>
 
-          <div className="flex  items-center justify-between">
+          <div className="flex lg:flex-row flex-col lg:space-y-0 space-y-4 items-center justify-between">
             <div className="flex items-center justify-center">
               <div className="flex items-center h-5 justify-center">
                 <input

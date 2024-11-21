@@ -54,7 +54,7 @@ const Teams = () => {
             real estate dreams a reality.
           </p> */}
 
-          <div className="flex flex-row flex-wrap justify-center gap-16">
+          <div className="flex flex-row flex-wrap justify-center lg:gap-16 ">
             {teamMembers.map((member, index) => (
               <div
                 key={index}

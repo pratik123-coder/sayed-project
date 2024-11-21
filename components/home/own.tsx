@@ -52,7 +52,7 @@ const Own = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 lg:m-8">
           {offerings.map((offering, index) => (
             <BoxComponent
               key={index}

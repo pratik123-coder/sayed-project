@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className='rounded-2xl overflow-hidden mx-10 '>
+    <div className='rounded-2xl overflow-hidden mx-10'>
       <section className="relative bg-cover bg-center bg-[url(https://res.cloudinary.com/dmp5bgayc/image/upload/f_auto,q_auto/y237jhu4kccrzaqkna3o)] ">
         {/* Overlay */}
         <video
@@ -19,11 +19,11 @@ const HeroSection = () => {
         {/* <div className="absolute inset-0 bg-black opacity-80"></div> */}
 
         {/* Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-[40vh] text-white text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-10 leading-tight mt-12">
+        <div className="relative z-10 flex flex-col items-center justify-center text-white text-center px-4 py-12">
+          <h1 className="text-4xl md:text-5xl font-bold mb-10 leading-tight">
             We would love to hear from you
           </h1>
-          <p className="text-lg md:text-xl max-w-5xl mb-6">
+          <p className="text-lg md:text-xl max-w-5xl">
             Have questions or just want to say hi? Send us a message below or you can <br/>
             <a
                 href="mailto:contact@greyplatforms.com"

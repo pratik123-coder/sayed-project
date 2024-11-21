@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="px-10 bg-white shadow-2xl">
+    <div className="lg:px-10 px-4 bg-white shadow-2xl">
       <div className="rounded-t-[40px] overflow-hidden">
         <section className="relative bg-cover bg-center rounded-t-[40px]">
           {/* Background Video */}
@@ -21,11 +21,10 @@ const Hero = () => {
             Your browser does not support the video tag.
           </video>
 
-          {/* Overlay */}
-          <div className="absolute inset-0  opacity-80"></div>
+          
 
           {/* Content */}
-          <div className="relative z-10 flex flex-col items-center justify-center h-[40vh] text-white text-center px-4">
+          <div className="relative z-10 flex flex-col items-center justify-center text-white text-center px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-10 leading-tight mt-12">
               Fix your <span className="font-semibold">&apos;Failure&apos;</span> here...
             </h1>
@@ -47,7 +46,7 @@ const Hero = () => {
               alt="Dashboard"
               width={1200}
               height={600}
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg px-4 mt-4"
             />
           </div>
         </section>

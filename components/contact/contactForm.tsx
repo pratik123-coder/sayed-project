@@ -40,7 +40,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white px-8">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 bg-white rounded-lg mb-10 pt-10">
         <div className="text-center mb-8">
           <h2 className="text-5xl font-semibold text-gray-900">
@@ -192,7 +192,7 @@ const ContactForm = () => {
             ></textarea>
           </div>
 
-          <div className="flex  items-center justify-between">
+          <div className="flex lg:flex-row flex-col lg:space-y-0 space-y-4 items-center justify-between">
             <div className="flex items-center justify-center">
               <div className="flex items-center h-5 justify-center">
                 <input
